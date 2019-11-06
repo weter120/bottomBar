@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6e780357d4.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Cormorant+Garamond|Ubuntu+Condensed&display=swap" rel="stylesheet"> 
+    <title>Bottom Menu</title>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Новости</a>
+        <a href="#">Контакты</a>
+        <a href="#">О нас</a>
+    </div>
+
+    <!-- Use any element to open the sidenav -->
+    
+    
+    <header id="main-header">
+        <div class="container">
+            <div class="logo">
+                <h1>Це адаптивность</h1>
+            </div>
+            <span onclick="openNav()"><i class="fas fa-bars fa-2x"></i></span>
+            <ul>
+                <li><a href="">Новости</a></li>
+                <li><a href="">Контакты</a></li>
+                <li><a href="">О нас</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <section id="main-section">
+        <div class="container">
+            <div class="card">
+                <h2>Це контент</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia explicabo quae commodi quasi
+                    quaerat ratione fugit, consequuntur voluptate minus quia?</p>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
