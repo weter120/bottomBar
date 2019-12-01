@@ -40,8 +40,11 @@ ul{
   gap: 2rem;
 }
 
+li{
+  padding-left: 1rem;
+}
+
 #main-header{
-  /* background-color: azure; */
   border-bottom:2px dotted grey;
 }
 
